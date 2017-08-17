@@ -1,0 +1,108 @@
+ 
+
+body{
+
+	height: 690px;
+	padding-left: 10px;
+	margin:50px;
+	width: 800px;
+
+}
+
+ .myheading, h1{
+
+	display: inline;
+	font-weight: bolder;
+	background-color: orange;
+	padding: 0 3px 0 3px;
+	margin: 25px;
+	color: white;
+	border-radius: 
+
+}
+
+.instruction{
+	color: green;
+	background-color: #ffef96;
+	margin-left: 10px;
+	text-align: left;
+	line-height: 1px;
+	width: 500px;
+}
+
+.instruction p{
+	margin: 10px;
+	line-height: 16px;
+}
+
+.game-counter
+   {
+
+	background-color: #33ccff;
+	display: block;
+	margin: 17px 30px -17px 80px; 
+    padding: 10px;
+	height: 50px;
+	width: 90px;
+
+}
+.life-counter, h3{
+	background-color: green;
+	height: 100px;
+	width: 100px;
+	margin-left: 50px;
+
+}
+h1{
+	margin-right: 25px;
+	margin-top: 0px;
+}
+.container{
+
+	margin: 25;
+	width:690px;
+	height:800px;
+} 
+
+
+.hexagon, img {
+	margin: 0px 0 0 2px;
+	background-color: #992600;
+	
+}
+.prism, img {
+	margin: 2px 0px 0 2px;
+	background-color: #00cccc;
+	
+}
+
+
+.octagon, img{
+    margin: 2px 0px 0px 2px;
+   background-color: #ffa64d;
+	
+}
+
+
+.square, img{
+    margin: 2px 0px 0 2px;
+   background-color: #4dff88;
+	
+}
+
+.myScore {
+	width:230px;
+	height: 20px;
+	background-color: #009999;
+	color: white;
+	margin:-35px 0px 5px 20px;
+}
+.myScore h1{
+	margin:2px;
+}
+.crystalDisplay{
+    margin:5px 0px 5px 34px;
+	width:230px;
+	height: 90px;
+	background-color: #009999;
+}

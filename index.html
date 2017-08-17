@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collection Game</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+	
+	
+   <!-- <meta name="viewport" content="width= device-width, initial-scale=1"> -->
+   
+</head>
+ <body>
+
+       <div class="container">
+
+            	<div class="row">
+            		<div class="col-xl-12"></div>
+            		<h1 id="anyName">CrystalCollector!</h1>
+            	</div>
+
+            	<div class="row">
+            	   <div class="col-md-12">
+            	      <div class="instruction">
+            	      <p> you will be given a roandom number at the short of the game</p>  
+            		 	  <p>there are four crystals below. By clicking on a crystal you will add a specific amount of pounds to your total score.</p>
+            		 	  <p>you win the game by matching your total score to random number, you loose the game if your total score to random number, you loose the game if your total score goes above the radom number </p>	 
+            		 	  <p>the value of each crystal in hidden from you until you click on it.</p>
+            		 	  <p>Each time when the game starts, the gme will change the values of each crystal.</p>
+      		 	  </div>
+            </div>
+          </div>
+            <div class="row">
+            	  <div class="col-md-4">
+                      <h3> genNum: <div class="lifeCounter"></div></h3>
+                 </div>
+            	            <div class="row">
+            		           <div class="col-md-2">
+            			           <div class="row">
+            			              <div class="col-md-2">
+            			                 <p1 class="game-counter" id="WinDisplay">Wins: </p1> 
+            			                 <p1 class="game-counter" id="lossDisplay">Losses: </p1> 
+            			                </div>
+            			           </div>			
+            		          </div>
+            	       </div>	
+               
+               </div>
+               <div class="row">
+            		  <div class="col-sm-2">
+            		     <div >Hexagon</div>
+            		        <img class="hexagonCrystal" src="assets/img/hexagon.jpg" class="img-tumbinal" width="50" height="50">
+            		     </div>
+            		     <div class="col-sm-2">
+            		        <div >Prism</div>
+            		        <img class="prismCrystal" src="assets/img/hexagon.jpg" class="img-tumbinal" width="50" height="50">
+            		     </div>
+            		     <div class="col-sm-2">
+            		        <div >Octagon</div>
+            		        <img class="octagonCrystal" src="assets/img/hexagon.jpg" class="img-tumbinal" width="50" height="50">
+            		     </div>
+            		      <div class="col-sm-2">
+            		         <div >Square</div>
+            		         <img class="squareCrystal" src="assets/img/hexagon.jpg" class="img-tumbinal" width="50" height="50">
+            	        </div>
+            	 </div>
+            	 <div class="row">
+            	  	 <div class="col-sm-4">
+            	  	   <div class="myScore">
+            	  	   <p>Your total Score is: </p>
+            	  	  </div>
+            	  	 </div>
+            	</div>		
+              <div class = "row">
+                	<div class="col-xl-6">
+                	  <div>
+                     <h2 class="crystalDisplay"> </h2> 
+                    </div>
+                   </div>
+             </div>
+          	
+      </div>
+     
+        <script src="assets/javascript/game.js"></script>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+				 <!-- Latest compiled and minified JavaScripts -->
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  
+ </body>
+</html>
