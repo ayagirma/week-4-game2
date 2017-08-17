@@ -1,108 +1,48 @@
- 
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-body{
-
-	height: 690px;
-	padding-left: 10px;
-	margin:50px;
-	width: 800px;
-
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
- .myheading, h1{
-
-	display: inline;
-	font-weight: bolder;
-	background-color: orange;
-	padding: 0 3px 0 3px;
-	margin: 25px;
-	color: white;
-	border-radius: 
-
-}
-
-.instruction{
-	color: green;
-	background-color: #ffef96;
-	margin-left: 10px;
-	text-align: left;
-	line-height: 1px;
-	width: 500px;
-}
-
-.instruction p{
-	margin: 10px;
-	line-height: 16px;
-}
-
-.game-counter
-   {
-
-	background-color: #33ccff;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
 	display: block;
-	margin: 17px 30px -17px 80px; 
-    padding: 10px;
-	height: 50px;
-	width: 90px;
-
 }
-.life-counter, h3{
-	background-color: green;
-	height: 100px;
-	width: 100px;
-	margin-left: 50px;
-
+body {
+	line-height: 1;
 }
-h1{
-	margin-right: 25px;
-	margin-top: 0px;
+ol, ul {
+	list-style: none;
 }
-.container{
-
-	margin: 25;
-	width:690px;
-	height:800px;
-} 
-
-
-.hexagon, img {
-	margin: 0px 0 0 2px;
-	background-color: #992600;
-	
+blockquote, q {
+	quotes: none;
 }
-.prism, img {
-	margin: 2px 0px 0 2px;
-	background-color: #00cccc;
-	
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
-
-
-.octagon, img{
-    margin: 2px 0px 0px 2px;
-   background-color: #ffa64d;
-	
-}
-
-
-.square, img{
-    margin: 2px 0px 0 2px;
-   background-color: #4dff88;
-	
-}
-
-.myScore {
-	width:230px;
-	height: 20px;
-	background-color: #009999;
-	color: white;
-	margin:-35px 0px 5px 20px;
-}
-.myScore h1{
-	margin:2px;
-}
-.crystalDisplay{
-    margin:5px 0px 5px 34px;
-	width:230px;
-	height: 90px;
-	background-color: #009999;
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
