@@ -1,6 +1,6 @@
 
 // capturing the random number generator
-$(document).ready(function() {
+// $(document).ready(function() {
 var randNum = Math.floor((Math.random() *105) + 20);
 // console.log(randNum);
 
@@ -108,4 +108,4 @@ function update(crystal){
 
 };  
 
-});
+// });
